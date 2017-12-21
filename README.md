@@ -1,33 +1,31 @@
-# vue_gglmap
+# vue.js_googleMap
+https://gurigura0052.github.io/vue.js_googleMap
 
-##vue-cli インストール
+## vue-cliインストール
+https://jp.vuejs.org/2015/12/28/vue-cli/
 ```
-# vue-cli をインストール
 $ npm install --global vue-cli
-# "webpack" ボイラープレートを使用した新しいプロジェクトを作成する
 $ vue init webpack my-project
-# 依存関係をインストールしてgo!
 $ cd my-project
 $ npm install
 $ npm run dev
 ```
 
-##プラグインインストール
-
-###axios
+## プラグインインストール
+### axios
 ```
 $ npm install axios
 ```
+https://www.npmjs.com/package/axios
 
-###google-maps
+### google-maps
 ```
 $ npm install google-maps
 ```
+https://www.npmjs.com/package/google-maps
 
 ## Build Setup
-
-**npm run build** で生成したhtmlの外部ファイルのリンクが上手く行かないときは **config/index.js** の **assetsPublicPath** を見直す
-
+- ビルド前に **config/index.js** の **assetsPublicPath** を **'./'** に変更
 ``` bash
 # install dependencies
 npm install

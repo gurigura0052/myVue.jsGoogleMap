@@ -6,9 +6,11 @@
 
 <script>
   import Vue from 'vue'
-  import gglMap from './gglMap/gglMap'
+  import gglMap from './lib/gglMap'
 
   Vue.component('ggl_map', gglMap)
 
-  export default{}
+  export default{
+    name: 'Home'
+  }
 </script>
