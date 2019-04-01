@@ -1,52 +1,47 @@
-# vue.js_googleMap
-https://gurigura0052.github.io/vue.js_googleMap
+# app
 
-## vue-cliインストール
-https://jp.vuejs.org/2015/12/28/vue-cli/
+## Project setup
 ```
-$ npm install --global vue-cli
-$ vue init webpack my-project
-$ cd my-project
-$ npm install
-$ npm run dev
+npm install
 ```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## プラグインインストール
 ### axios
 ```
-$ npm install axios
+$ npm install --save axios
 ```
 https://www.npmjs.com/package/axios
 
 ### google-maps
 ```
-$ npm install google-maps
+$ npm install --save google-maps
 ```
 https://www.npmjs.com/package/google-maps
 
-## Build Setup
-- ビルド前に **config/index.js** の **assetsPublicPath** を **'./'** に変更
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+### jQuey
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+$ npm install --save jquery
+```
