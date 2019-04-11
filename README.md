@@ -1,4 +1,5 @@
-# app
+# myVue.jsGoogleMap
+https://gurigura0052.github.io/myVue.jsGoogleMap
 
 ## Project setup
 ```
