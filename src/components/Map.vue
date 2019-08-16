@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       request: {
-        url: '/json/map_marker.json', // マーカーデータの場所
+        url: './json/map_marker.json', // マーカーデータの場所
         mapData: {
           ID: 'gglMap', // mapを表示させる場所
           center: {
